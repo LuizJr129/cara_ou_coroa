@@ -1,0 +1,105 @@
+* {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+  size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  justify-content: center;
+  align-items: center;
+  size: 3rem;
+  font-weight: 700;
+  color: #1c7ed6;
+}
+
+h4 {
+  justify-content: center;
+  align-items: center;
+  size: 2rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+h6 {
+  margin-top: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  size: 0.5rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+p,
+span,
+h3 {
+  justify-content: center;
+  align-items: center;
+  size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50h;
+  background: #232323;
+  gap: 1rem;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #2e2e2e;
+  padding: 0.5rem;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  font-weight: 500;
+}
+
+.botoes {
+  display: flex;
+  gap: 10%;
+}
+
+.btnAzul {
+  background: #1c7ed6;
+}
+
+.btnVermelho {
+  background: #dc3545;
+}
+
+@media only screen and (max-width: 700px) {
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2e2e2e;
+  padding: 3rem;
+  border-radius: 0.25rem;
+  border: 1px solid #1c7ed6;
+}

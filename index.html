@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cara ou Coroa</title>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <h1>Cara ou Coroa</h1>
+    <h6>Jogue a moeda para ver qual o resultado(cara ou coroa)</h6>
+    <img id="Imagem" src="../fotos/cara.png" alt="Imagem aonde se vê a moeda" />
+    <div class="botoes">
+      <button id="Cara" class="btnAzul" onclick="sorteador(event, 'Cara')">
+        Cara</button
+      ><button
+        id="Coroa"
+        class="btnVermelho"
+        onclick="sorteador(event, 'Coroa')"
+      >
+        Coroa
+      </button>
+    </div>
+
+    <div id="card" class="card">
+      <h3>Score:</h3>
+      <h4>
+        Para cada acerto <strong>+10</strong>, cada erro <strong>-10</strong>
+      </h4>
+      <h2 id="Score">0</h2>
+    </div>
+  </body>
+</html>
